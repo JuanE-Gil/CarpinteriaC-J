@@ -1,0 +1,19 @@
+---
+import ButtonNavigation from './ButtonNavigation.astro';
+import navigationData from '../../data/navigationData.json';
+---
+
+<div class="flex justify-center items-center py-8 border-b">
+  <ul class="space-y-3 w-full">
+    {
+      navigationData.map((item) => (
+        <ButtonNavigation
+          route={item.route}
+          icon={item.icon}
+          title={item.title}
+          active={item.route === Astro.url.pathname}
+        />
+      ))
+    }
+  </ul>
+</div>
