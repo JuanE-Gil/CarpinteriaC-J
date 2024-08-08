@@ -1,43 +1,43 @@
 [
   {
     "route": "/",
-    "icon": "../../public/icons/dashboard2.svg",
+    "icon": "../../public/dashboard2.svg",
     "title": "Dashboard",
     "active": true
   },
   {
     "route": "/customers",
-    "icon": "../../public/icons/customers.svg",
+    "icon": "../../public/customers.svg",
     "title": "Clientes",
     "active": false
   },
   {
     "route": "/products",
-    "icon": "../../public/icons/products.svg",
+    "icon": "../../public/products.svg",
     "title": "Productos",
     "active": false
   },
   {
     "route": "/sales",
-    "icon": "../../public/icons/sales.svg",
+    "icon": "../../public/sales.svg",
     "title": "Ventas",
     "active": false
   },
   {
     "route": "/inventory",
-    "icon": "../../public/icons/inventory.svg",
+    "icon": "../../public/inventory.svg",
     "title": "Inventario",
     "active": false
   },
   {
     "route": "/suppliers",
-    "icon": "../../public/icons/suppliers.svg",
+    "icon": "../../public/suppliers.svg",
     "title": "Proveedores",
     "active": false
   },
   {
     "route": "/reports",
-    "icon": "../../public/icons/reports.svg",
+    "icon": "../../public/reports.svg",
     "title": "Informes",
     "active": false
   }
