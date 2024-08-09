@@ -1,0 +1,112 @@
+[
+  {
+      "id": 1001,
+      "nro_venta": "V0001",
+      "nombre_del_producto": "Silla de Madera",
+      "precio": 120.50,
+      "cantidad": 2,
+      "fecha": "2024-07-15",
+      "cliente": "Juan Pérez",
+      "codigo_de_venta": "C001",
+      "estado_venta": "Completada"
+  },
+  {
+      "id": 1002,
+      "nro_venta": "V0002",
+      "nombre_del_producto": "Mesa de Comedor",
+      "precio": 250.00,
+      "cantidad": 1,
+      "fecha": "2024-07-16",
+      "cliente": "María López",
+      "codigo_de_venta": "C002",
+      "estado_venta": "En proceso"
+  },
+  {
+      "id": 1003,
+      "nro_venta": "V0003",
+      "nombre_del_producto": "Estante de Pared",
+      "precio": 80.75,
+      "cantidad": 5,
+      "fecha": "2024-07-17",
+      "cliente": "Carlos García",
+      "codigo_de_venta": "C003",
+      "estado_venta": "Completada"
+  },
+  {
+      "id": 1004,
+      "nro_venta": "V0004",
+      "nombre_del_producto": "Silla Ergonomica",
+      "precio": 150.00,
+      "cantidad": 3,
+      "fecha": "2024-07-18",
+      "cliente": "Ana Martínez",
+      "codigo_de_venta": "C004",
+      "estado_venta": "Cancelada"
+  },
+  {
+      "id": 1005,
+      "nro_venta": "V0005",
+      "nombre_del_producto": "Mesa de Café",
+      "precio": 90.00,
+      "cantidad": 2,
+      "fecha": "2024-07-19",
+      "cliente": "Luis Fernández",
+      "codigo_de_venta": "C005",
+      "estado_venta": "Completada"
+  },
+  {
+      "id": 1006,
+      "nro_venta": "V0006",
+      "nombre_del_producto": "Armario Ropero",
+      "precio": 350.00,
+      "cantidad": 1,
+      "fecha": "2024-07-20",
+      "cliente": "Claudia Ramírez",
+      "codigo_de_venta": "C006",
+      "estado_venta": "En proceso"
+  },
+  {
+      "id": 1007,
+      "nro_venta": "V0007",
+      "nombre_del_producto": "Escritorio de Oficina",
+      "precio": 200.00,
+      "cantidad": 2,
+      "fecha": "2024-07-21",
+      "cliente": "Ricardo Torres",
+      "codigo_de_venta": "C007",
+      "estado_venta": "Completada"
+  },
+  {
+      "id": 1008,
+      "nro_venta": "V0008",
+      "nombre_del_producto": "Banqueta de Bar",
+      "precio": 75.00,
+      "cantidad": 4,
+      "fecha": "2024-07-22",
+      "cliente": "Juan Pérez",
+      "codigo_de_venta": "C008",
+      "estado_venta": "En proceso"
+  },
+  {
+      "id": 1009,
+      "nro_venta": "V0009",
+      "nombre_del_producto": "Mesita de Noche",
+      "precio": 60.00,
+      "cantidad": 3,
+      "fecha": "2024-07-23",
+      "cliente": "María López",
+      "codigo_de_venta": "C009",
+      "estado_venta": "Completada"
+  },
+  {
+      "id": 1010,
+      "nro_venta": "V0010",
+      "nombre_del_producto": "Estante Modular",
+      "precio": 110.00,
+      "cantidad": 1,
+      "fecha": "2024-07-24",
+      "cliente": "Carlos García",
+      "codigo_de_venta": "C010",
+      "estado_venta": "Pendiente"
+  }
+]

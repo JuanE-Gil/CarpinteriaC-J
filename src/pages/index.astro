@@ -1,6 +1,7 @@
 ---
 import CustomersList from '../components/dashboard/CustomersList';
 import InfoCardsSection from '../components/dashboard/InfoCardsSection';
+import ProductsList from '../components/dashboard/ProductsList';
 import Layout from '../layouts/Layout.astro';
 ---
 
@@ -24,12 +25,12 @@ import Layout from '../layouts/Layout.astro';
           <img src="../../chart.png" alt="chart" class="w-full">
         </div>
 
-        <div class="bg-green-100 shadow-md p-4 rounded-md col-span-2 row-span-4">
-          Contenedor 3
+        <div class="bg-green-100 shadow-md p-4 rounded-md col-span-2 row-span-4 ">
+          <img src="../../chart2.png" alt="chart2" class="w-full h-full object-cover">
         </div>
 
         <div class="bg-yellow-100 shadow-md p-4 rounded-md col-span-2 row-span-2">
-          Contenedor 4
+          <ProductsList />
         </div>
       </section>
     </div>

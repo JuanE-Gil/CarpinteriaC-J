@@ -1,20 +1,29 @@
 ---
+import SalesTable from '../../components/sales/SalesTable';
+import ButtonNavigation from '../../components/sidebar/ButtonNavigation';
 import Layout from '../../layouts/Layout.astro';
 ---
 
 <Layout title="Ventas">
-  <main class="h-full w-full shadow-md rounded-md">
-    <div class="bg-white flex flex-col h-full w-full p-4 space-y-4">
-      <header class="flex justify-start py-8 px-4">
-        <h1 class="text-xl font-bold">Ventas</h1>
+  <main class="bg-slate-50 h-full w-full shadow-md rounded-md">
+    <div class="flex flex-col h-full w-full p-4 space-y-4">
+      <header class="flex py-4 px-4 justify-between">
+        <h1 class="text-4xl font-bold">Ventas</h1>
+        <ButtonNavigation
+          class:list={'bg-blue-500'}
+          route="/products/new"
+          icon={'../../../new-product.svg'}
+          title="Nueva Venta"
+          active={false}
+        />
       </header>
+      <SalesTable />
     </div>
   </main>
 </Layout>
 
 <style>
   main {
-    background-color: white;
     font-size: 24px;
     color: #333;
   }
