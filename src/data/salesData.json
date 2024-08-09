@@ -1,7 +1,7 @@
 [
   {
       "id": 1001,
-      "nro_venta": "V0001",
+      "nro_venta": "0001",
       "nombre_del_producto": "Silla de Madera",
       "precio": 120.50,
       "cantidad": 2,
@@ -12,7 +12,7 @@
   },
   {
       "id": 1002,
-      "nro_venta": "V0002",
+      "nro_venta": "0002",
       "nombre_del_producto": "Mesa de Comedor",
       "precio": 250.00,
       "cantidad": 1,
@@ -23,7 +23,7 @@
   },
   {
       "id": 1003,
-      "nro_venta": "V0003",
+      "nro_venta": "0003",
       "nombre_del_producto": "Estante de Pared",
       "precio": 80.75,
       "cantidad": 5,
@@ -34,7 +34,7 @@
   },
   {
       "id": 1004,
-      "nro_venta": "V0004",
+      "nro_venta": "0004",
       "nombre_del_producto": "Silla Ergonomica",
       "precio": 150.00,
       "cantidad": 3,
@@ -45,7 +45,7 @@
   },
   {
       "id": 1005,
-      "nro_venta": "V0005",
+      "nro_venta": "0005",
       "nombre_del_producto": "Mesa de Café",
       "precio": 90.00,
       "cantidad": 2,
@@ -56,7 +56,7 @@
   },
   {
       "id": 1006,
-      "nro_venta": "V0006",
+      "nro_venta": "0006",
       "nombre_del_producto": "Armario Ropero",
       "precio": 350.00,
       "cantidad": 1,
@@ -67,7 +67,7 @@
   },
   {
       "id": 1007,
-      "nro_venta": "V0007",
+      "nro_venta": "0007",
       "nombre_del_producto": "Escritorio de Oficina",
       "precio": 200.00,
       "cantidad": 2,
@@ -78,7 +78,7 @@
   },
   {
       "id": 1008,
-      "nro_venta": "V0008",
+      "nro_venta": "0008",
       "nombre_del_producto": "Banqueta de Bar",
       "precio": 75.00,
       "cantidad": 4,
@@ -89,7 +89,7 @@
   },
   {
       "id": 1009,
-      "nro_venta": "V0009",
+      "nro_venta": "0009",
       "nombre_del_producto": "Mesita de Noche",
       "precio": 60.00,
       "cantidad": 3,
@@ -100,7 +100,7 @@
   },
   {
       "id": 1010,
-      "nro_venta": "V0010",
+      "nro_venta": "0010",
       "nombre_del_producto": "Estante Modular",
       "precio": 110.00,
       "cantidad": 1,

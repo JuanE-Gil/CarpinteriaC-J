@@ -10,12 +10,12 @@
     "icon": "../../icon2.png"
   },
   {
-    "title": "Total de Ingresos",
+    "title": "Total de Ingresos / Mes",
     "number": "S/1,384.25",
     "icon": "../../icon3.png"
   },
   {
-    "title": "Total de Ventas",
+    "title": "Total Nro de Ventas",
     "number": 32,
     "icon": "../../icon4.png"
   }

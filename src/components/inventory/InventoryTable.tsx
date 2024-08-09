@@ -21,6 +21,9 @@ const InventoryTable: React.FC = () => {
               ID
             </th>
             <th scope="col" className="px-6 py-3">
+              Código Producto
+            </th>
+            <th scope="col" className="px-6 py-3">
               Nombre del Producto
             </th>
             <th scope="col" className="px-6 py-3">
@@ -28,9 +31,6 @@ const InventoryTable: React.FC = () => {
             </th>
             <th scope="col" className="px-6 py-3">
               Precio
-            </th>
-            <th scope="col" className="px-6 py-3">
-              Código
             </th>
             <th scope="col" className="px-6 py-3">
               Materiales
@@ -52,15 +52,14 @@ const InventoryTable: React.FC = () => {
               }`}
             >
               <td className="px-6 py-4 font-medium text-gray-700">{product.id}</td>
+              <td className="px-6 py-4 font-medium text-gray-700">{product.codigo}</td>
               <td className="px-6 py-4 font-medium text-gray-700">{product.nombre_del_producto}</td>
               <td className="px-6 py-4 font-medium text-gray-700">{product.categoria}</td>
               <td className="px-6 py-4 font-medium text-gray-700">S/ {product.precio.toFixed(2)}</td>
-              <td className="px-6 py-4 font-medium text-gray-700">{product.codigo}</td>
               <td className="px-6 py-4 font-medium text-gray-700">{product.materiales.join(', ')}</td>
               <td className="px-6 py-4 font-medium text-gray-700"># {product.stock}</td>
               <td className="px-6 py-4">
-                <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-lg text-center shadow px-5 py-2 text-sm mr-4">Editar</button>
-                <button className="bg-red-500 hover:bg-red-600 text-white font-semibold rounded-lg text-center shadow px-5 py-2 text-sm">Eliminar</button>
+                <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-lg text-center shadow px-5 py-2 text-sm mr-4">Detalle</button>
               </td>
             </tr>
           ))}
