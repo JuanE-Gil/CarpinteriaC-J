@@ -53,8 +53,8 @@ const CustomerTable: React.FC = () => {
               <td className="px-6 py-4 font-medium text-gray-700">{client.email}</td>
               <td className="px-6 py-4 font-medium text-gray-700">{client.dni_ruc}</td>
               <td className="px-6 py-4">
-                <button className="bg-blue-500 text-white font-semibold rounded-md shadow w-20 h-8 mr-4">Editar</button>
-                <button className="bg-red-500 text-white font-semibold rounded-md shadow w-20 h-8">Eliminar</button>
+                <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-lg text-center shadow px-5 py-2 text-sm mr-4">Editar</button>
+                <button className="bg-red-500 hover:bg-red-600 text-white font-semibold rounded-lg text-center shadow px-5 py-2 text-sm">Eliminar</button>
               </td>
             </tr>
           ))}
