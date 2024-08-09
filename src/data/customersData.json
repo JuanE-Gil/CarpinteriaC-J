@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1001,
+    "nombre": "Juan Pérez",
+    "direccion": "Av. Siempre Viva 123, Lima",
+    "num_telefono": "987 654 321",
+    "email": "juan.perez@example.com",
+    "dni_ruc": "12345678"
+  },
+  {
+    "id": 1002,
+    "nombre": "María López",
+    "direccion": "Calle Falsa 456, Arequipa",
+    "num_telefono": "912 345 678",
+    "email": "maria.lopez@example.com",
+    "dni_ruc": "87654321"
+  },
+  {
+    "id": 1003,
+    "nombre": "Carlos García",
+    "direccion": "Jr. Puno 789, Cusco",
+    "num_telefono": "998 765 432",
+    "email": "carlos.garcia@example.com",
+    "dni_ruc": "23456789"
+  },
+  {
+    "id": 1004,
+    "nombre": "Ana Martínez",
+    "direccion": "Av. del Sol 101, Trujillo",
+    "num_telefono": "987 321 654",
+    "email": "ana.martinez@example.com",
+    "dni_ruc": "34567890"
+  },
+  {
+    "id": 1005,
+    "nombre": "Luis Fernández",
+    "direccion": "Calle Real 202, Chiclayo",
+    "num_telefono": "912 678 345",
+    "email": "luis.fernandez@example.com",
+    "dni_ruc": "45678901"
+  },
+  {
+    "id": 1006,
+    "nombre": "Claudia Ramírez",
+    "direccion": "Av. Primavera 333, Piura",
+    "num_telefono": "987 123 456",
+    "email": "claudia.ramirez@example.com",
+    "dni_ruc": "56789012"
+  },
+  {
+    "id": 1007,
+    "nombre": "Ricardo Torres",
+    "direccion": "Calle Sol 789, Huancayo",
+    "num_telefono": "923 456 789",
+    "email": "ricardo.torres@example.com",
+    "dni_ruc": "67890123"
+  },
+  {
+    "id": 1008,
+    "nombre": "Elena Gutiérrez",
+    "direccion": "Jr. Libertad 456, Iquitos",
+    "num_telefono": "912 789 654",
+    "email": "elena.gutierrez@example.com",
+    "dni_ruc": "78901234"
+  },
+  {
+    "id": 1009,
+    "nombre": "Javier Morales",
+    "direccion": "Av. Los Héroes 101, Tacna",
+    "num_telefono": "987 654 987",
+    "email": "javier.morales@example.com",
+    "dni_ruc": "89012345"
+  },
+  {
+    "id": 1010,
+    "nombre": "Patricia Castillo",
+    "direccion": "Calle San Martín 987, Pucallpa",
+    "num_telefono": "923 987 123",
+    "email": "patricia.castillo@example.com",
+    "dni_ruc": "90123456"
+  }
+]
