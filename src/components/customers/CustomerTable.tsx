@@ -11,7 +11,7 @@ interface Client {
 
 const CustomerTable: React.FC = () => {
   return (
-    <div className="relative overflow-x-auto px-6 py-6 rounded-lg bg-white shadow">
+    <div className="relative overflow-x-auto px-6 py-4 rounded-lg bg-white shadow">
       <table className="w-full text-sm text-center text-gray-500 bg-slate-100 ">
         <thead className="text-xs text-gray-300 uppercase bg-slate-700 ">
           <tr>
