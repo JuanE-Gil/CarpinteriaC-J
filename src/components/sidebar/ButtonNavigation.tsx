@@ -10,14 +10,16 @@ interface Props {
 const ListItem: React.FC<Props> = ({ route, icon, title, active = false }) => {
   return (
     <li
-      className={`space-x-2 h-12 px-4 py-2 ${active ? 'bg-blue-500 text-white' : 'bg-white text-gray-700'} rounded-md`}
+      className={`space-x-2 h-12 px-4 py-2 ${active ? 'bg-blue-500 text-white shadow-lg ' : 'bg-white text-gray-700'} rounded-md`}
       style={{
         listStyle: 'none',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         height: '48px',
-        padding: '0 16px'
+        padding: '0 16px',
+        boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+        margin: '12px 0',
       }}
     >
       <span

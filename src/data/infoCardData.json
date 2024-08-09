@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Total de Usuarios",
+    "number": 24,
+    "icon": "../../icon1.png"
+  },
+  {
+    "title": "Total de Productos",
+    "number": 40,
+    "icon": "../../icon2.png"
+  },
+  {
+    "title": "Total de Ingresos",
+    "number": "S/1,384.25",
+    "icon": "../../icon3.png"
+  },
+  {
+    "title": "Total de Ventas",
+    "number": 32,
+    "icon": "../../icon4.png"
+  }
+]

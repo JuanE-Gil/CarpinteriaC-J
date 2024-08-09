@@ -1,19 +1,43 @@
 ---
+import InfoCardsSection from '../components/dashboard/InfoCardsSection';
 import Layout from '../layouts/Layout.astro';
-import Button from '../components/Button.jsx';
 ---
 
 <Layout title="Dashboard">
-  <main class="flex justify-center items-center h-full w-full shadow-md rounded-md">
-    Dashboard
-    <Button client:load />
+  <main class="bg-slate-50 h-full w-full shadow-md rounded-lg">
+    <div class="flex flex-col h-full w-full p-4 space-y-4">
+
+      <header class="flex justify-start py-8 px-4">
+        <h1 class="text-2xl font-bold">Dashboard</h1>
+      </header>
+
+      <InfoCardsSection />
+
+      <section class="grid grid-cols-5 grid-rows-4 gap-4 h-full">
+
+        <div class="bg-red-100 shadow-md p-4 rounded-md col-span-1 row-span-4">
+          Contenedor 1
+        </div>
+
+        <div class="bg-blue-100 shadow-md p-4 rounded-md col-span-2 row-span-2">
+          Contenedor 2
+        </div>
+
+        <div class="bg-green-100 shadow-md p-4 rounded-md col-span-2 row-span-4">
+          Contenedor 3
+        </div>
+
+        <div class="bg-yellow-100 shadow-md p-4 rounded-md col-span-2 row-span-2">
+          Contenedor 4
+        </div>
+      </section>
+    </div>
   </main>
 </Layout>
 
 <style>
   main {
-    background-color: white;
-    font-size: 24px;
+    font-size: 16px;
     color: #333;
   }
 </style>
