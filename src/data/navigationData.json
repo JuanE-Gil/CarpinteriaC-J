@@ -6,40 +6,40 @@
     "active": true
   },
   {
-    "route": "/customers",
+    "route": "/customers/",
     "icon": "../../customers.svg",
     "title": "Clientes",
-    "active": false
+    "active": true
   },
   {
-    "route": "/products",
+    "route": "/products/",
     "icon": "../../products.svg",
     "title": "Productos",
-    "active": false
+    "active": true
   },
   {
-    "route": "/sales",
+    "route": "/sales/",
     "icon": "../../sales.svg",
     "title": "Ventas",
-    "active": false
+    "active": true
   },
   {
-    "route": "/inventory",
+    "route": "/inventory/",
     "icon": "../../inventory.svg",
     "title": "Inventario",
-    "active": false
+    "active": true
   },
   {
-    "route": "/suppliers",
+    "route": "/suppliers/",
     "icon": "../../suppliers.svg",
     "title": "Proveedores",
-    "active": false
+    "active": true
   },
   {
-    "route": "/reports",
+    "route": "/reports/",
     "icon": "../../reports.svg",
     "title": "Informes",
-    "active": false
+    "active": true
   }
 
 ]
