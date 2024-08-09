@@ -1,5 +1,5 @@
 ---
-import ButtonNavigation from './ButtonNavigation.astro';
+import ButtonNavigation from './ButtonNavigation.tsx';
 import navigationData from '../../data/navigationData.json';
 ---
 
@@ -7,7 +7,7 @@ import navigationData from '../../data/navigationData.json';
   <ul class="space-y-3 w-full">
     {
       navigationData.map((item) => (
-        <ButtonNavigation
+        <ButtonNavigation client:visible
           route={item.route}
           icon={item.icon}
           title={item.title}
