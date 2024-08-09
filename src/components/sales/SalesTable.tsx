@@ -91,17 +91,23 @@ const SalesTable: React.FC = () => {
               <td className="px-6 py-4 font-medium text-gray-700">
                 {formatDate(sale.fecha)}
               </td>
-              <td
-                className={`px-6 py-4 font-bold text-gray-700 ${
-                  sale.estado_venta === "Completada"
-                    ? "bg-green-100 text-green-700"
-                    : "bg-yellow-100 text-yellow-700"
-                }`}
-              >
-                {sale.estado_venta}
+              <td className="px-6 py-4 font-bold text-medium text-gray-700">
+                <span
+                  className={`${
+                    sale.estado_venta === "Completada"
+                      ? " shadow-sm border-green-500 text-green-500 bg-green-100/50 p-3 rounded-lg"
+                      : sale.estado_venta === "Cancelada"
+                        ? " shadow-sm border-red-500 text-red-500 bg-red-100/50 p-3 rounded-lg"
+                        : sale.estado_venta === "Pendiente"
+                          ? " shadow-sm border-blue-500 text-blue-500 bg-blue-100/50 p-3 rounded-lg"
+                          : "shadow-sm border-yellow-500 text-yellow-500 bg-yellow-100/50 p-3 rounded-lg"
+                  }`}
+                >
+                  {sale.estado_venta}
+                </span>
               </td>
               <td className="px-6 py-4">
-                <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-lg text-center shadow px-5 py-2 text-sm mr-4">
+                <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-lg text-center px-5 py-2 shadow-md">
                   Detalle
                 </button>
               </td>

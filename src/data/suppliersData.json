@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1001,
+    "nombre": "Juan Pérez",
+    "razon_social": "Barone LLC.",
+    "direccion": "Av. Siempre Viva 123, Lima",
+    "num_telefono": "987 654 321",
+    "email": "juan.perez@example.com",
+    "ruc": "12345678"
+  },
+  {
+    "id": 1002,
+    "nombre": "María López",
+    "razon_social": "Big Kahuna Burger Ltd.",
+    "direccion": "Calle Falsa 456, Arequipa",
+    "num_telefono": "912 345 678",
+    "email": "maria.lopez@example.com",
+    "ruc": "87654321"
+  },
+  {
+    "id": 1003,
+    "nombre": "Carlos García",
+    "razon_social": "Abstergo Ltd.",
+    "direccion": "Jr. Puno 789, Cusco",
+    "num_telefono": "998 765 432",
+    "email": "carlos.garcia@example.com",
+    "ruc": "23456789"
+  },
+  {
+    "id": 1004,
+    "nombre": "Ana Martínez",
+    "razon_social": "Biffco Enterprises Ltd.",
+    "direccion": "Av. del Sol 101, Trujillo",
+    "num_telefono": "987 321 654",
+    "email": "ana.martinez@example.com",
+    "ruc": "34567890"
+  },
+  {
+    "id": 1005,
+    "nombre": "Luis Fernández",
+    "razon_social": "Binford Ltd.",
+    "direccion": "Calle Real 202, Chiclayo",
+    "num_telefono": "912 678 345",
+    "email": "luis.fernandez@example.com",
+    "ruc": "45678901"
+  },
+  {
+    "id": 1006,
+    "nombre": "Claudia Ramírez",
+    "razon_social": "Zeta - Zeta Enterprise",
+    "direccion": "Av. Primavera 333, Piura",
+    "num_telefono": "987 123 456",
+    "email": "claudia.ramirez@example.com",
+    "ruc": "56789012"
+  },
+  {
+    "id": 1007,
+    "nombre": "Ricardo Torres",
+    "razon_social": "NCR Corporation",
+    "direccion": "Calle Sol 789, Huancayo",
+    "num_telefono": "923 456 789",
+    "email": "ricardo.torres@example.com",
+    "ruc": "67890123"
+  },
+  {
+    "id": 1008,
+    "nombre": "Elena Gutiérrez",
+    "razon_social": "Nam-zim",
+    "direccion": "Jr. Libertad 456, Iquitos",
+    "num_telefono": "912 789 654",
+    "email": "elena.gutierrez@example.com",
+    "ruc": "78901234"
+  },
+  {
+    "id": 1009,
+    "nombre": "Javier Morales",
+    "razon_social": "Abstergo Ltd.",
+    "direccion": "Av. Los Héroes 101, Tacna",
+    "num_telefono": "987 654 987",
+    "email": "javier.morales@example.com",
+    "ruc": "89012345"
+  },
+  {
+    "id": 1010,
+    "nombre": "Patricia Castillo",
+    "razon_social": "Binford Ltd.",
+    "direccion": "Calle San Martín 987, Pucallpa",
+    "num_telefono": "923 987 123",
+    "email": "patricia.castillo@example.com",
+    "ruc": "90123456"
+  }
+]

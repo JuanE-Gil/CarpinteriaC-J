@@ -1,21 +1,30 @@
 ---
+import SuppliersTable from '../../components/suppliers/SuppliersTable.tsx';
+import ButtonNavigation from '../../components/sidebar/ButtonNavigation';
 import Layout from '../../layouts/Layout.astro';
 ---
 
-<Layout title="Proveedores">
-  <main class="h-full w-full shadow-md rounded-md">
-    <div class="bg-white flex flex-col h-full w-full p-4 space-y-4">
-      <header class="flex justify-start py-8 px-4">
-        <h1 class="text-xl font-bold">Proveedores</h1>
+<Layout title="Proveedors">
+  <main class="bg-slate-50 h-full w-full shadow-md rounded-md">
+    <div class="flex flex-col h-full w-full p-4 space-y-4">
+      <header class="flex py-4 px-4 justify-between">
+        <h1 class="text-4xl font-bold">Listado de Proveedores</h1>
+        <ButtonNavigation
+          class:list={'bg-blue-500'}
+          route="/suppliers/new"
+          icon={'../../../new-customer.svg'}
+          title="Nuevo Proveedor"
+          active={false}
+        />
       </header>
+      <SuppliersTable />
     </div>
   </main>
 </Layout>
 
 <style>
   main {
-    background-color: white;
-    font-size: 24px;
+    font-size: 16px;
     color: #333;
   }
 </style>
