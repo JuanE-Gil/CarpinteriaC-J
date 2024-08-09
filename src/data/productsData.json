@@ -1,0 +1,102 @@
+[
+  {
+      "id": 1001,
+      "img": "../../bitmap-4.png",
+      "nombre_del_producto": "Silla de Madera",
+      "categoria": "Muebles",
+      "precio": 120.50,
+      "codigo": "SIL123",
+      "materiales": ["Madera de roble", "Tela"],
+      "stock": 15
+  },
+  {
+      "id": 1002,
+      "img": "../../bitmap-6.png",
+      "nombre_del_producto": "Mesa de Comedor",
+      "categoria": "Muebles",
+      "precio": 250.00,
+      "codigo": "MES456",
+      "materiales": ["Madera de cerezo", "Vidrio templado"],
+      "stock": 10
+  },
+  {
+      "id": 1003,
+      "img": "../../bitmap-5.png",
+      "nombre_del_producto": "Estante de Pared",
+      "categoria": "Accesorios",
+      "precio": 80.75,
+      "codigo": "EST789",
+      "materiales": ["Madera de pino"],
+      "stock": 20
+  },
+  {
+      "id": 1004,
+      "img": "../../bitmap-3.png",
+      "nombre_del_producto": "Silla Ergonomica",
+      "categoria": "Muebles",
+      "precio": 150.00,
+      "codigo": "SIL234",
+      "materiales": ["Madera de haya", "Cuero sintético"],
+      "stock": 12
+  },
+  {
+      "id": 1005,
+      "img": "../../bitmap-4.png",
+      "nombre_del_producto": "Mesa de Café",
+      "categoria": "Muebles",
+      "precio": 90.00,
+      "codigo": "MES567",
+      "materiales": ["Madera de abeto", "Mármol"],
+      "stock": 18
+  },
+  {
+      "id": 1006,
+      "img": "../../bitmap.png",
+      "nombre_del_producto": "Armario Ropero",
+      "categoria": "Muebles",
+      "precio": 350.00,
+      "codigo": "ARM890",
+      "materiales": ["Madera de roble", "Metal"],
+      "stock": 8
+  },
+  {
+      "id": 1007,
+      "img": "../../bitmap-3.png",
+      "nombre_del_producto": "Escritorio de Oficina",
+      "categoria": "Muebles",
+      "precio": 200.00,
+      "codigo": "ESC123",
+      "materiales": ["Madera de roble", "Acero inoxidable"],
+      "stock": 14
+  },
+  {
+      "id": 1008,
+      "img": "../../bitmap-4.png",
+      "nombre_del_producto": "Banqueta de Bar",
+      "categoria": "Muebles",
+      "precio": 75.00,
+      "codigo": "BAN456",
+      "materiales": ["Madera de pino", "Piel sintética"],
+      "stock": 22
+  },
+  {
+      "id": 1009,
+      "img": "../../bitmap-5.png",
+      "nombre_del_producto": "Mesita de Noche",
+      "categoria": "Muebles",
+      "precio": 60.00,
+      "codigo": "MES678",
+      "materiales": ["Madera de abeto", "Vidrio"],
+      "stock": 25
+  },
+  {
+      "id": 1010,
+      "img": "../../bitmap-6.png",
+      "nombre_del_producto": "Estante Modular",
+      "categoria": "Accesorios",
+      "precio": 110.00,
+      "codigo": "EST901",
+      "materiales": ["Madera de haya", "Metal"],
+      "stock": 17
+  }
+]
