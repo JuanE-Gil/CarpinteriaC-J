@@ -1,20 +1,21 @@
 ---
+import CustomerTable from '../components/customers/CustomerTable';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Clientes">
-  <main class="h-full w-full shadow-md rounded-md">
-    <div class="bg-white flex flex-col h-full w-full p-4 space-y-4">
+  <main class="bg-slate-50 h-full w-full shadow-md rounded-md">
+    <div class="flex flex-col h-full w-full p-4 space-y-4">
       <header class="flex justify-start py-8 px-4">
-        <h1 class="text-xl font-bold">Clientes</h1>
+        <h1 class="text-4xl font-bold">Clientes</h1>
       </header>
+      <CustomerTable />
     </div>
   </main>
 </Layout>
 
 <style>
   main {
-    background-color: white;
     font-size: 16px;
     color: #333;
   }
