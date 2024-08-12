@@ -1,0 +1,16 @@
+---
+import {Input} from "@nextui-org/react";
+---
+
+<form action="/api/session" accept-charset="UTF-8" method="POST" class="container mx-auto">
+  <div class="">
+    <Input isRequired type="email" label="Email" placeholder="Enter your email" className="max-w-xs" />
+  </div>
+  <div>
+    <label for="password">Password:</label>
+    <br />
+    <input type="password" name="password" required />
+  </div>
+  <br />
+  <button type="submit">Sumbit</button>
+</form>

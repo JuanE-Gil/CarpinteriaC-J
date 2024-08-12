@@ -1,0 +1,29 @@
+---
+import LoginForm from '../components/login/LoginForm.astro';
+import LoginLayout from '../layouts/LoginLayout.astro';
+import hasProfile from "../utils/profile";
+
+const cookie: string = `${Astro.cookies.get(import.meta.env.COOKIE_NAME || "_Security_Login_")?.value}`;
+const d = hasProfile(cookie);
+
+if (d.success === true) {
+  return Astro.redirect("/");
+}
+---
+
+<LoginLayout title="Login">
+  <div class="login">
+    <h1>Login</h1>
+    <LoginForm />
+    <div class="quote">
+      <center>
+        <span>Email: user@example.com</span>
+        <span>Password: 1234</span>
+      </center>
+    </div>
+  </div>
+</LoginLayout>
+
+<style>
+
+</style>
