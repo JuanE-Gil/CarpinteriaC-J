@@ -1,25 +1,32 @@
 ---
 import LoginForm from '../components/login/LoginForm.astro';
 import LoginLayout from '../layouts/LoginLayout.astro';
-import hasProfile from "../utils/profile";
+import hasProfile from '../utils/profile';
 
-const cookie: string = `${Astro.cookies.get(import.meta.env.COOKIE_NAME || "_Security_Login_")?.value}`;
+const cookie: string = `${Astro.cookies.get(import.meta.env.COOKIE_NAME || '_Security_Login_')?.value}`;
 const d = hasProfile(cookie);
 
 if (d.success === true) {
-  return Astro.redirect("/");
+  return Astro.redirect('/');
 }
 ---
 
 <LoginLayout title="Login">
-  <div class="max-w-screen-sm mx-auto bg-slate-200 p-8 mt-10 rounded-lg shadow-lg flex items-center justify-center flex-col container mb-4">
-    <h1 class="text-3xl font-bold text-center py-4 mb-5">Iniciar Sesión</h1>
-    <LoginForm />
+  <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+    <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+      <img
+        class="mx-auto h-32 w-auto mb-8"
+        src="../../logo.png"
+        alt="Your Company"
+      />
+      <div class="sm:mx-auto sm:w-full sm:max-w-sm bg-slate-50 py-4 px-8 rounded-lg shadow-md">
+        <h2 class="text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+          Iniciar Sesión
+        </h2>
+        <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+          <LoginForm />
+        </div>
+      </div>
+    </div>
   </div>
 </LoginLayout>
-
-<style>
-  .container {
-    font-family: 'Quicksand', sans-serif;
-  }
-</style>
