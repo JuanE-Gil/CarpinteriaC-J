@@ -1,10 +1,10 @@
 ---
-import ButtonNavigation from './ButtonNavigation.tsx';
+import ButtonNavigation from '../ui/ButtonNavigation.tsx';
 import navigationData from '../../data/navigationData.json';
 ---
 
 <div class="flex justify-center items-center py-8 border-b">
-  <ul class="space-y-3 w-full">
+  <ul class="space-y-8 w-full">
     {
       navigationData.map((item) => (
         <ButtonNavigation client:visible
