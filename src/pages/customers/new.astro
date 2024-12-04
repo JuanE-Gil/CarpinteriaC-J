@@ -1,130 +1,87 @@
 ---
+import { Input } from '@nextui-org/input';
+import { Button } from '@nextui-org/button';
 import Layout from '../../layouts/Layout.astro';
 ---
 
 <Layout title="Nuevo Cliente">
-  <main class="bg-slate-50 h-full w-full shadow-md rounded-md">
-    <div class="flex flex-col h-full w-full p-4 space-y-4">
+  <main class="bg-white h-full w-full shadow-lg rounded-lg">
+    <div class="flex flex-col h-full w-full p-6 space-y-6">
       <header class="flex justify-start py-8 px-4">
-        <h1 class="text-4xl font-bold">Nuevo Cliente</h1>
+        <h1 class="text-4xl font-bold text-gray-800">Nuevo Cliente</h1>
       </header>
-      <div class="bg-white px-8 py-6 h-full items-center flex">
-        <form class="max-w-md mx-auto">
-          <div class="relative z-0 w-full mb-5 group">
-            <input
-              type="email"
-              name="floating_email"
-              id="floating_email"
-              class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-              placeholder=" "
-              required
-            />
-            <label
-              for="floating_email"
-              class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-              >Email address</label
-            >
+      <div
+        class="bg-white/50 px-4 py-4 flex justify-center items-center shadow-md rounded-lg"
+      >
+        <form class="bg-slate-50/50 px-10 py-8 w-full max-w-lg space-y-6 shadow-md rounded-lg">
+          <Input
+            type="text"
+            label="Nombre"
+            placeholder="Juan Pérez"
+            labelPlacement="outside"
+            class="block w-full mt-1 px-3 py-2 border border-gray-300 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            required
+            variant="bordered"
+            validationState="valid"
+            validationRegex="^[a-zA-Z\s]{3,}$"
+          />
+          <br />
+          <Input
+            type="text"
+            label="Dirección"
+            variant="bordered"
+            placeholder="Av. Siempre Viva 742"
+            labelPlacement="outside"
+            class="block w-full mt-1 px-3 py-2 border border-gray-300 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            required
+            validationState="valid"
+            validationRegex="^[\w\s\d]{5,}$"
+          />
+          <br />
+          <Input
+            type="tel"
+            label="Teléfono"
+            placeholder="123-456-7890"
+            labelPlacement="outside"
+            class="block w-full mt-1 px-3 py-2 border border-gray-300 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            required
+            variant="bordered"
+            validationState="valid"
+            validationRegex="^\d{3}-\d{3}-\d{4}$"
+          />
+          <br />
+          <Input
+            type="email"
+            label="Email"
+            variant="bordered"
+            placeholder="you@example.com"
+            labelPlacement="outside"
+            class="block w-full mt-1 px-3 py-2 border border-gray-300 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            required
+            validationState="valid"
+            validationRegex="^[^\s@]+@[^\s@]+\.[^\s@]+$"
+          />
+          <br />
+          <Input
+            type="text"
+            label="DNI/RUC"
+            variant="bordered"
+            placeholder="1234567890"
+            labelPlacement="outside"
+            class="block w-full mt-1 px-3 py-2 border border-gray-300 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            required
+            validationState="valid"
+            validationRegex="^\d{8,11}$"
+          />
+          <br />
+          <div class="flex justify-between">
+            <Button type="button" color="danger" class="w-full shadow-md" shadow rounded>
+              Cancelar
+            </Button>
+            <Button type="submit" color="primary" class="w-full shadow-md" shadow rounded>
+              Enviar
+            </Button>
           </div>
-          <div class="relative z-0 w-full mb-5 group">
-            <input
-              type="password"
-              name="floating_password"
-              id="floating_password"
-              class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-              placeholder=" "
-              required
-            />
-            <label
-              for="floating_password"
-              class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-              >Password</label
-            >
-          </div>
-          <div class="relative z-0 w-full mb-5 group">
-            <input
-              type="password"
-              name="repeat_password"
-              id="floating_repeat_password"
-              class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-              placeholder=" "
-              required
-            />
-            <label
-              for="floating_repeat_password"
-              class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-              >Confirm password</label
-            >
-          </div>
-          <div class="grid md:grid-cols-2 md:gap-6">
-            <div class="relative z-0 w-full mb-5 group">
-              <input
-                type="text"
-                name="floating_first_name"
-                id="floating_first_name"
-                class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                placeholder=" "
-                required
-              />
-              <label
-                for="floating_first_name"
-                class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >First name</label
-              >
-            </div>
-            <div class="relative z-0 w-full mb-5 group">
-              <input
-                type="text"
-                name="floating_last_name"
-                id="floating_last_name"
-                class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                placeholder=" "
-                required
-              />
-              <label
-                for="floating_last_name"
-                class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >Last name</label
-              >
-            </div>
-          </div>
-          <div class="grid md:grid-cols-2 md:gap-6">
-            <div class="relative z-0 w-full mb-5 group">
-              <input
-                type="tel"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                name="floating_phone"
-                id="floating_phone"
-                class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                placeholder=" "
-                required
-              />
-              <label
-                for="floating_phone"
-                class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >Phone number (123-456-7890)</label
-              >
-            </div>
-            <div class="relative z-0 w-full mb-5 group">
-              <input
-                type="text"
-                name="floating_company"
-                id="floating_company"
-                class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-                placeholder=" "
-                required
-              />
-              <label
-                for="floating_company"
-                class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >Company (Ex. Google)</label
-              >
-            </div>
-          </div>
-          <button
-            type="submit"
-            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >Submit</button
-          >
         </form>
       </div>
     </div>
